@@ -23,7 +23,7 @@ db.rooms.insertMany([
             },
             {
                 "Customer_Name" : "Pranavi",
-                "Date" : "2022-07-18",
+                "Date" : "2022-07-25",
                 "Start_Time" : "14:30:00",
                 "End_Time" : "18:30:00"
             }
@@ -47,7 +47,10 @@ db.rooms.insertMany([
         "Room_Id": 102,
         "Seats_Available" : 18,
         "Aminities" : ["Free Wifi","Air Conditioning","Bigger Podium"],
-        "Price_per_Hour(INR)" : 450
+        "Price_per_Hour(INR)" : 450,
+        "Booking_Details" : []
     }
 ])
+
+
 
