@@ -23,7 +23,8 @@ async function createConnection(){
 const client = await createConnection();
 
 app.get("/", function(req,res){
-    res.send("Hi");
+    const text = 'Hi <br/> 1. To view all Rooms with booked details go for extension - "/rooms/getBookedDetails" <br/> 2. To view all the customers with booked data, go for extension - "/rooms/getBookedCustomerDetails"'
+    res.send(text);
 });
 
 app.get("/rooms", async function(req,res){
